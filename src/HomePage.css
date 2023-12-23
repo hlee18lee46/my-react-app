@@ -1,0 +1,118 @@
+.content-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns child to the right */
+    align-items: center; /* Align items vertically in the middle */
+    width: 100%; /* Ensures the container takes full width */
+  }
+  
+  .right-image {
+    /* Adjust the width as needed */
+    float: right;
+    width: 400px;
+    border-radius: 50%; /* This creates the oval shape */
+    max-width: 100%;
+    border: 3px solid #0015ff; 
+    height: auto;
+    object-fit: cover; 
+    margin-left: 20px; /* Adjust the value as needed */
+  }
+  @keyframes outlineAnimation {
+    0% {
+      border-color: #000dff; /* Starting color */
+    }
+    50% {
+      border-color: #6633ff; /* Intermediate color */
+    }
+    100% {
+      border-color: #ff9500; /* Ending color - back to start */
+    }
+  }
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  .right-image:hover {
+    /* Adjust the width as needed */
+    transform: scale(1.7); /* Slightly enlarge the image */
+    transition: transform 0.2s ease;
+    border: 10px solid #ff9100; 
+    border: 2px solid #0105ff; /* Initial border color */
+    border-radius: 50%;
+    animation: outlineAnimation 2s infinite; /* Apply the animation */
+    /*animation: fadeOut 0.5s ease-out forwards;*/
+  }
+  .typewriter p {
+    display: inline-block;
+    overflow: hidden; /* Hide text overflow */
+    border-right: 3px solid rgb(0, 0, 0); /* Cursor-like border */
+    white-space: nowrap; /* Keep text in one line */
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+  #specialfont{
+    font-weight: bold;
+    color: blue;
+  }
+  #delayedTextThree{
+    animation-delay: 3s;
+  }
+  /* Typing keyframes */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; } /* Set to full width of the text */
+  }
+  
+  /* Cursor blink keyframes */
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(0, 0, 0); }
+  }
+  #delayedTextFour {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 4s; /* Adjust this value for different delay times */
+  }
+  #delayedTextFive {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 5s; /* Adjust this value for different delay times */
+  }
+  #delayedTextSix {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 6s; /* Adjust this value for different delay times */
+  }
+  #delayedTextEight {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 8s; /* Adjust this value for different delay times */
+  }
+  #delayedTextTen {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 10s; /* Adjust this value for different delay times */
+  }
+  #delayedTextTwelve {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 12s; /* Adjust this value for different delay times */
+  }
+  #delayedTextFourteen {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 14s; /* Adjust this value for different delay times */
+  }
+  #delayedTextSixteen {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 16s; /* Adjust this value for different delay times */
+  }
+  #delayedTextTwentyfour {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 24s; /* Adjust this value for different delay times */
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }

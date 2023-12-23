@@ -1,0 +1,84 @@
+/* Navbar.css */
+
+/* General styling for the navigation bar */
+nav {
+
+    background-size: cover; /* Cover the entire area of the nav bar */
+    background-color: #ffffff; /* Dark background */
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    display: flex; 
+    justify-content: center; /* Center items horizontally */
+    position: fixed; /* Fixed position */
+    top: 10px; /* Align to the top */
+    left: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 50%; /* Full width */
+    z-index: 1000; /* Ensure it's above other content */
+}
+nav:hover{
+    background-color: #fafafd; /* Dark background */
+    position: fixed; /* Fixed position */
+
+}
+
+  /* Styling for each link in the navigation bar */
+  nav a {
+    color: rgb(0, 0, 0); /* White text for links */
+    text-decoration: none; /* No underline */
+    margin: 0 1rem; /* Spacing around links */
+    padding: 0.5rem;
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    position: relative; /* Positioning context for the pseudo-element */
+    display: inline-block; /* Needed to apply positioning for pseudo-elements */  }
+    nav a::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        height: 90%;
+        border-radius: 10%;
+        background-color: transparent;
+        transition: transform 0.5s ease, background-color 0.5s ease;
+        transform: translate(-50%, -50%) scale(0);
+        border: 2px solid #000000; /* Circle border */
+    }
+nav a:hover::before {
+    transform: translate(-50%, -50%) scale(1); /* Scale the circle to full size */
+}
+  /* Hover effect for links */
+  nav a:hover {
+    color: #000000; /* Lighter color on hover */
+    transform: scale(1.2); /* Slightly enlarge the link */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: bold;
+    animation: drawBorder 1s linear forwards; /* Apply the animation */
+
+  }
+  
+  /* Styling for the active link */
+  .active-link {
+    color: #22c428; /* Distinct color for the active link */
+    font-weight: bold; /* Make active link bold */
+    border-bottom: 2px solid #4CAF50; /* Underline active link */
+  }
+  
+  @keyframes drawBorder {
+    0% {
+      border-color: transparent;
+    }
+    25% {
+      border-top-color: #ffffff; /* Animate top border */
+    }
+    50% {
+      border-right-color: #ffffff; /* Animate right border */
+    }
+    75% {
+      border-bottom-color: #ffffff; /* Animate bottom border */
+    }
+    100% {
+      border-left-color: #ffffff; /* Animate left border */
+    }
+  }

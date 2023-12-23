@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures the content fits in the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width, you can adjust as needed */
+    margin: 16px; /* Spacing around the card */
+  }
+  .card:hover {
+    transform: translateY(-20px); /* Slightly lift the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  .card-image {
+    width: 100%; /* Makes the image occupy full card width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .card:hover .card-image {
+    transform: scale(1.0); /* Slightly enlarge the image */
+    transition: transform 0.2s ease;
+  }
+  .card-content {
+    padding: 6px; /* Padding inside the card */
+  }
+  
+  .card-link {
+    color: #0077cc; /* Link color */
+    text-decoration: none; /* No underline */
+    font-size: 20px;
+    color:#000000;
+    font-weight: normal; /* Makes the link text bold */
+  }
+  .card-bottom-images {
+    display: flex; /* Align images side by side */
+    justify-content: center; /* Center images horizontally */
+    gap: 10px; /* Space between images */
+    padding: 8px; /* Padding around images */
+}
+
+.card-bottom-image {
+    width: 30px; /* Each image takes half of the card width */
+    height: 30px; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the given area */
+}
+.card-bottom-image:hover {
+    border: 3px solid #000000; /* Light grey border */
+    border-radius: 50%;
+    object-fit: cover; /* Cover the given area */
+}

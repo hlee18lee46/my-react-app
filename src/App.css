@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  background-color: white;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -13,15 +16,22 @@
   }
 }
 
+
+.active-link {
+  color: #4CAF50; /* Active link color */
+  font-weight: bold; /* Make active link bold */
+  /* Add other styles as needed */
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +45,103 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax values as needed */
+  gap: 20px; /* Space between cards */
+  padding: 20px; /* Padding around the grid */
+}
+.logo:hover{
+  transform: scale(2.2); /* Slightly enlarge the image */
+  transition: transform 0.2s ease;
+}
+.wheel-container {
+  position: relative;
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  margin: 50px auto;
+  animation: spin 10s linear infinite; /* Spinning animation */
+}
+
+.wheel-item {
+  position: absolute;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg); /* Initial rotation */
+}
+
+.wheel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Spinning animation keyframes */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.wheel-item:nth-child(1) { transform: translate(-50%, -50%) rotate(0deg); }
+.wheel-item:nth-child(2) { transform: translate(-50%, -50%) rotate(90deg); }
+.wheel-item:nth-child(3) { transform: translate(-50%, -50%) rotate(180deg); }
+.wheel-item:nth-child(4) { transform: translate(-50%, -50%) rotate(270deg); }
+/* Add more as needed */
+
+.crescent-container {
+  position: relative;
+  width: 300px; /* Adjust based on your requirements */
+  height: 300px; /* Adjust based on your requirements */
+}
+
+.crescent-item {
+  position: absolute;
+  width: 50px; /* Adjust based on your requirements */
+  height: auto;
+  /* You'll need to manually adjust the top, left, and transform for each item */
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns; adjust as needed */
+  grid-gap: 10px; /* Spacing between images */
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Optional: for better aspect ratio handling */
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px; /* Adjust as needed */
+  border-radius: 5px; /* Optional */
+  overflow: hidden; /* Keeps everything contained within the card */
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 2px 16px;
+}
+
+.card-title {
+  font-size: 18px; /* Adjust as needed */
+  margin-top: 0;
+}
+
+.card-text {
+  font-size: 14px; /* Adjust as needed */
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
