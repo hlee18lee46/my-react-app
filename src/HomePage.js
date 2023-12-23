@@ -25,7 +25,7 @@ function HomePage() {
             Now, I am looking for a <b>professional opportunity</b> to...<b>build stuff!!</b>
             </p1>
         </div>
-        <img src="./my-react-app/grad_new.png" alt="me" class="right-image" />
+        <img src={'${process.env.PUBLIC_URL}/grad_new.png'} alt="me" class="right-image" />
     </div>
 
     </div>
