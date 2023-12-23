@@ -14,7 +14,7 @@ function PortfolioPage() {
         <div className="grid-containerQ">
             <ImageCard 
             
-            imageUrl={'${process.env.PUBLIC_URL}/pioneer.png'}
+            imageUrl="./my-react-app/pioneer.png"
             linkText="Pioneer-Fleet (C#, Unity)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
@@ -30,7 +30,7 @@ function PortfolioPage() {
             imgUrl2="https://github.com/hlee18lee46/aiatlhack"
           />
           <ImageCard 
-            imageUrl="./onthehouse.png"
+            imageUrl="./my-react-app/onthehouse.png"
             linkText="On the House (Python, SQL)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
@@ -38,7 +38,7 @@ function PortfolioPage() {
             imgUrl2="https://www.youtube.com/watch?v=QLQUJKN_pIY"
           />
           <ImageCard 
-            imageUrl="/excelerate.png"
+            imageUrl="./my-react-app/excelerate.png"
             linkText="Excelerate (Python, Pandas, Plotly, Langchain)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
