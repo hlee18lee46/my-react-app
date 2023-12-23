@@ -14,7 +14,7 @@ function PortfolioPage() {
         <div className="grid-containerQ">
             <ImageCard 
             
-            imageUrl={process.env.PUBLIC_URL + '/pioneer.png'}
+            imageUrl={'${process.env.PUBLIC_URL}/pioneer.png'}
             linkText="Pioneer-Fleet (C#, Unity)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
