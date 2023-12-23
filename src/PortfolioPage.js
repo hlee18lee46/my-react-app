@@ -30,7 +30,7 @@ function PortfolioPage() {
             imgUrl2="https://github.com/hlee18lee46/aiatlhack"
           />
           <ImageCard 
-            imageUrl="onthehouse.png"
+            imageUrl="./onthehouse.png"
             linkText="On the House (Python, SQL)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
@@ -38,7 +38,7 @@ function PortfolioPage() {
             imgUrl2="https://www.youtube.com/watch?v=QLQUJKN_pIY"
           />
           <ImageCard 
-            imageUrl="excelerate.png"
+            imageUrl="/excelerate.png"
             linkText="Excelerate (Python, Pandas, Plotly, Langchain)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
