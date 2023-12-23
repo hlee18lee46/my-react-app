@@ -31,7 +31,7 @@ function PortfolioPage() {
           />
           <ImageCard 
             imageUrl="./my-react-app/onthehouse.png"
-            linkText="On the House (Python, SQL)"
+            linkText="On the House (Python, SQL) 12.23 4:32pm"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
             imgUrl1="https://github.com/anthonyg876/Software-engineering-project"
