@@ -22,7 +22,7 @@ function PortfolioPage() {
             imgUrl2="https://www.youtube.com/watch?v=gKVrnjjkMgA"
           />
           <ImageCard 
-            imageUrl="receiptable.png"
+            imageUrl="./my-react-app/receiptable.png"
             linkText="Receipt-Able (Python, mySQL, pytesseract)"
             bottomImageUrl1="github-mark.png"
             bottomImageUrl2="youtube-logo.png"
