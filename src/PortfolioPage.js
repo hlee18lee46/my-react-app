@@ -16,32 +16,32 @@ function PortfolioPage() {
             
             imageUrl="./my-react-app/pioneer.png"
             linkText="Pioneer-Fleet (C#, Unity)"
-            bottomImageUrl1="github-mark.png"
-            bottomImageUrl2="youtube-logo.png"
+            bottomImageUrl1="./my-react-app/github-mark.png"
+            bottomImageUrl2="./my-react-app/youtube-logo.png"
             imgUrl1="https://github.com/mwalmer/Pioneer-Fleet"
             imgUrl2="https://www.youtube.com/watch?v=gKVrnjjkMgA"
           />
           <ImageCard 
             imageUrl="./my-react-app/receiptable.png"
             linkText="Receipt-Able (Python, mySQL, pytesseract)"
-            bottomImageUrl1="github-mark.png"
-            bottomImageUrl2="youtube-logo.png"
+            bottomImageUrl1="./my-react-app/github-mark.png"
+            bottomImageUrl2="./my-react-app/youtube-logo.png"
             imgUrl1="https://www.youtube.com/watch?v=mmw3GoQl4Uk"
             imgUrl2="https://github.com/hlee18lee46/aiatlhack"
           />
           <ImageCard 
             imageUrl="./my-react-app/onthehouse.png"
             linkText="On the House (Python, SQL) 12.23 4:32pm"
-            bottomImageUrl1="github-mark.png"
-            bottomImageUrl2="youtube-logo.png"
+            bottomImageUrl1="./my-react-app/github-mark.png"
+            bottomImageUrl2="./my-react-app/youtube-logo.png"
             imgUrl1="https://github.com/anthonyg876/Software-engineering-project"
             imgUrl2="https://www.youtube.com/watch?v=QLQUJKN_pIY"
           />
           <ImageCard 
             imageUrl="./my-react-app/excelerate.png"
             linkText="Excelerate (Python, Pandas, Plotly, Langchain)"
-            bottomImageUrl1="github-mark.png"
-            bottomImageUrl2="youtube-logo.png"
+            bottomImageUrl1="./my-react-app/github-mark.png"
+            bottomImageUrl2="./my-react-app/youtube-logo.png"
             imgUrl1="https://github.com/BinaryBills/HackDearborn2023Work"
             imgUrl2="https://www.youtube.com/watch?v=8HPEsjFq28o"
           />
