@@ -33,7 +33,7 @@
   }
   .right-image:hover {
     /* Adjust the width as needed */
-    transform: scale(1.7); /* Slightly enlarge the image */
+    transform: scale(1.1); /* Slightly enlarge the image */
     transition: transform 0.2s ease;
     border: 10px solid #ff9100; 
     border: 2px solid #0105ff; /* Initial border color */
