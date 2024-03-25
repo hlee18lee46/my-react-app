@@ -47,3 +47,34 @@
     border-radius: 50%;
     object-fit: cover; /* Cover the given area */
 }
+.card-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5); /* Semi-transparent black */
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-image:hover .image-description {
+  visibility: visible;
+  font-size: 15px;
+  opacity: 1;
+}
