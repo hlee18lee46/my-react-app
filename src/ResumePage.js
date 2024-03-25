@@ -4,7 +4,7 @@ function ResumePage() {
   return (
     <div>
       <br></br><br></br><br></br>
-      <p><iframe src="https://drive.google.com/file/d/1g2Q0zgUcElKrOEVEyrmilfi7cn8zqGN7/preview" width="640" height="900" allow="autoplay"></iframe></p>
+      <p><iframe src="https://drive.google.com/file/d/1BEYjl9Xl-hySEzIe5ow5H4TKQAhGKg-C/preview" width="640" height="900" allow="autoplay"></iframe></p>
 
       
     </div>
