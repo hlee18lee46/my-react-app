@@ -94,6 +94,15 @@ function PortfolioPage() {
             imgUrl2="https://youtu.be/NNWj9b7hxZ0"
             description="Community SOS is a web application that allows users to post volunteer opportunities on the dashboard. I worked on the volunteer event create form and insertion command to supabase database."
           />
+            <ImageCard 
+            imageUrl="./my-react-app/android.png"
+            linkText="Movie Summary Android App(Kotlin, API)"
+            bottomImageUrl1="./my-react-app/github-mark.png"
+            bottomImageUrl2="./my-react-app/youtube-logo.png"
+            imgUrl1="https://github.com/hlee18lee46/prj4.codepath"
+            imgUrl2="https://youtube.com/shorts/BREYrawg3_w"
+            description="This android app is built with movie API to get the data and image of movies."
+          />
       </div>
     </div>
 
